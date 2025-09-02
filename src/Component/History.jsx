@@ -25,7 +25,9 @@
 
 
 import React from 'react'
-import ExpenseItem from './ExpenseItem'
+// import ExpenseItem from './ExpenseItem'
+import ExpenseItem from './ExpenseItem.jsx'
+
 
 function History(props) {
   // console.log(props.expense)
