@@ -61,7 +61,7 @@
 
 import React, { useState, useEffect } from 'react'
 import Form from './Form'
-import {v4 as uid} from 'uuid'
+
 import History from './History'
 import BalanceContainer from './BalanceContainer'
 
