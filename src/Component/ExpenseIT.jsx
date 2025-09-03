@@ -1,8 +1,7 @@
 import React from 'react'
 
-function ExpenseItem(props) {
-
-    const{title,amount,_id}=props.expense
+function ExpenseIT(props) {
+      const{title,amount,_id}=props.expense
      const type=amount < 0 ?  "expense" :"income"
 
      function handleDelete(){
@@ -21,4 +20,4 @@ function ExpenseItem(props) {
   )
 }
 
-export default ExpenseItem
+export default ExpenseIT
